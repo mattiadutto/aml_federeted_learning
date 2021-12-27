@@ -1,0 +1,13 @@
+# ignore data directories
+data/
+
+# ignore wandb directory
+wandb/
+
+# ignore save artificats
+*.pth
+artifacts/*
+!artifacts/.git-keep
+
+# ignore tmp folder
+tmp/
