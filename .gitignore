@@ -11,3 +11,6 @@ artifacts/*
 
 # ignore tmp folder
 tmp/
+
+# ignore the profiler traces
+trace*.json
