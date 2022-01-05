@@ -11,3 +11,9 @@ artifacts/*
 
 # ignore tmp folder
 tmp/
+
+# ignore the profiler traces
+trace*.json
+
+cifar10*.zip*
+cifar10/
