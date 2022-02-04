@@ -6,8 +6,9 @@ wandb/
 
 # ignore save artificats
 *.pth
-artifacts/*
-!artifacts/.git-keep
+*.json
+artifacts/*.pth
+artifacts/*STEPS*.*
 
 # ignore tmp folder
 tmp/
