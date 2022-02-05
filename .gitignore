@@ -6,7 +6,7 @@ wandb/
 
 # ignore save artificats
 *.pth
-*.json
+# *.json
 artifacts/*.pth
 artifacts/*STEPS*.*
 
