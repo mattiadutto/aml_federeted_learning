@@ -9,6 +9,7 @@ wandb/
 # *.json
 artifacts/*.pth
 artifacts/*STEPS*.*
+artifacts/*.zip
 
 # ignore tmp folder
 tmp/
