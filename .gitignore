@@ -19,3 +19,7 @@ trace*.json
 
 cifar10*.zip*
 cifar10/
+
+# ignore plots
+plots/*
+!plots/.git-keep
