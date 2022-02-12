@@ -9,8 +9,6 @@
         "LR": 0.01,
         "WEIGHT_DECAY": 0.0004,
         "DATA_DISTRIBUTION": "non-iid",
-        "DIRICHELET_ALPHA": "[ 0 . 0 ,   0 . 0 5 ,   0 . 1 ,   0 . 2 ,   0 . 5 ,   1 . 0 ,   1 0 . 0 ,   1 0 0 . 0 ]",
-        "AVERAGE_ACCURACY": "[0.6996 0.7173 0.     0.     0.     0.     0.     0.    ]",
         "FED_AVG_M": false,
         "FED_AVG_M_BETA": 0.9,
         "FED_AVG_M_GAMMA": 1,
@@ -20,7 +18,7 @@
         "SAVE_FREQUENCY": 500,
         "NORM_LAYER": ""
     },
-    "alpha": "0 . 0 5",
+    "alpha": 0.05,
     "accuracy": [
         12.13,
         10.0,

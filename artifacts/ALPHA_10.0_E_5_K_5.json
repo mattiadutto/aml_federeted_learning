@@ -8,8 +8,6 @@
         "VALIDATION_BATCH_SIZE": 500,
         "LR": 0.01,
         "DATA_DISTRIBUTION": "non-iid",
-        "DIRICHELET_ALPHA": "[ 0 . 5 ,   1 . 0 ,   1 0 . 0 ]",
-        "AVERAGE_ACCURACY": "[0.6636 0.6623 0.6955]",
         "FED_AVG_M": false,
         "FED_AVG_M_BETA": 0.9,
         "FED_AVG_M_GAMMA": 1,
@@ -19,7 +17,7 @@
         "SAVE_FREQUENCY": 100,
         "NORM_LAYER": ""
     },
-    "alpha": "1 0 . 0",
+    "alpha": 10.0,
     "accuracy": [
         10.0,
         39.56,

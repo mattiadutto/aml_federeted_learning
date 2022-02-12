@@ -9,15 +9,13 @@
         "LR": 0.01,
         "WEIGHT_DECAY": 0.0004,
         "DATA_DISTRIBUTION": "non-iid",
-        "DIRICHELET_ALPHA": "[ 0 . 0 ,   0 . 1 ,   0 . 5 ,   1 0 . 0 ,   0 . 5 ,   1 . 0 ,   1 0 . 0 ,   1 0 0 . 0 ]",
-        "AVERAGE_ACCURACY": "[0.2026 0.6726 0.6985 0.7178 0.6917 0.7172 0.7151 0.    ]",
         "LOG_FREQUENCY": 25,
         "AUGMENTATION_PROB": 0.0,
         "ALPHA": 0.1,
         "SAVE_FREQUENCY": 500,
         "NORM_LAYER": ""
     },
-    "alpha": "1 0 . 0",
+    "alpha": 10.0,
     "accuracy": [
         10.23,
         22.31,

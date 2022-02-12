@@ -8,8 +8,6 @@
         "VALIDATION_BATCH_SIZE": 500,
         "LR": 0.01,
         "DATA_DISTRIBUTION": "iid",
-        "DIRICHELET_ALPHA": "[ 0 . 0 ,   0 . 0 5 ,   0 . 1 ,   0 . 2 ,   0 . 5 ,   1 . 0 ,   1 0 . 0 ,   1 0 0 . 0 ]",
-        "AVERAGE_ACCURACY": "[0.7736 0.     0.     0.     0.     0.     0.     0.    ]",
         "FED_AVG_M": false,
         "FED_AVG_M_BETA": 0.9,
         "FED_AVG_M_GAMMA": 1,
@@ -19,7 +17,7 @@
         "SAVE_FREQUENCY": 100,
         "NORM_LAYER": ""
     },
-    "alpha": "0 . 0",
+    "alpha": "iid",
     "accuracy": [
         9.98,
         22.54,

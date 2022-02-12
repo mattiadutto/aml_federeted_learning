@@ -9,8 +9,6 @@
         "LR": 0.01,
         "WEIGHT_DECAY": 0.0004,
         "DATA_DISTRIBUTION": "iid",
-        "DIRICHELET_ALPHA": "[ ' i i d ' ]",
-        "AVERAGE_ACCURACY": "[0.7523 0.     0.     0.     0.     0.     0.     0.    ]",
         "FED_AVG_M": false,
         "FED_AVG_M_BETA": 0.9,
         "FED_AVG_M_GAMMA": 1,
@@ -20,7 +18,7 @@
         "SAVE_FREQUENCY": 500,
         "NORM_LAYER": "bn"
     },
-    "alpha": "i i d",
+    "alpha": "iid",
     "accuracy": [
         10.440000000000001,
         41.660000000000004,
